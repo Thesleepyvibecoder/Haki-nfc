@@ -75,7 +75,7 @@ const Hero = () => {
       </div>
 
       <div className="hero-background" aria-hidden="true">
-  <img src="/hero-background.png" alt="" />
+  <img src="/hero-background-clean.png" alt="" />
 </div>
 
       <div className="hero-scroll-indicator">
