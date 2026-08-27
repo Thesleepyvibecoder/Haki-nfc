@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import "./Hero.css";
 import { FaWhatsapp, FaInstagram, FaPhoneAlt } from "react-icons/fa";
 
-import { ComputersCanvas } from "./canvas";
+
 import { fadeIn, textVariant } from "../utils/motion";
 
 const Hero = () => {
@@ -74,7 +74,9 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas />
+      <div className="hero-background" aria-hidden="true">
+  <img src="/hero-background.png" alt="" />
+</div>
 
       <div className="hero-scroll-indicator">
         <a href="#about">
