@@ -167,6 +167,10 @@
 }
 
 @media (max-width: 767px) {
+     .hero-section {
+    background-size: auto 100%;
+    background-position: 72% center;
+  }
   .hero-copy-wrap {
     top: 98px;
     gap: 14px;
