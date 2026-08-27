@@ -1,59 +1,74 @@
 import { motion } from "framer-motion";
-import './Hero.css';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import "./Hero.css";
+import { FaWhatsapp, FaInstagram, FaPhoneAlt } from "react-icons/fa";
 
 import { ComputersCanvas } from "./canvas";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const Hero = () => {
   return (
-    <section className='hero-section'>
-      <div className='hero-copy-wrap'>
-        <div className='hero-accent' aria-hidden='true'>
-          <div className='hero-accent-dot' />
-          <div className='hero-accent-line' />
+    <section className="hero-section">
+      <div className="hero-copy-wrap">
+        <div className="hero-accent" aria-hidden="true">
+          <div className="hero-accent-dot" />
+          <div className="hero-accent-line" />
         </div>
 
-        <div className='hero-copy'>
-          <h1 className='hero-title'>
-            Hi, I'm{" "}
+        <div className="hero-copy">
+          <h1 className="hero-title">
+            Welcome to{" "}
             <motion.span
               variants={textVariant(0.5)}
-              initial='hidden'
-              whileInView='show'
+              initial="hidden"
+              whileInView="show"
               viewport={{ once: false, amount: 0.25 }}
-              className='hero-name'
+              className="hero-name"
             >
-              Tanmay
+              Haki NFC
             </motion.span>
           </h1>
 
           <motion.p
             variants={fadeIn("", "", 0.1, 1)}
-            initial='hidden'
-            whileInView='show'
+            initial="hidden"
+            whileInView="show"
             viewport={{ once: false, amount: 0.25 }}
-            className='hero-subtitle'
+            className="hero-subtitle"
           >
-            I develop 3D visuals, user <br className='hero-line-break' />
-            interfaces and web applications
+            Smart NFC solutions for businesses, brands
+            <br className="hero-line-break" />
+            and modern digital experiences.
           </motion.p>
 
           <motion.div
             variants={fadeIn("", "", 0.5, 1)}
-            initial='hidden'
-            whileInView='show'
+            initial="hidden"
+            whileInView="show"
             viewport={{ once: false, amount: 0.25 }}
-            className='hero-socials'
+            className="hero-socials"
           >
-            <a href="#" className="hero-social-link" aria-label='GitHub'>
-              <FaGithub />
+            <a
+              href="#contact"
+              className="hero-social-link"
+              aria-label="WhatsApp"
+            >
+              <FaWhatsapp />
             </a>
-            <a href="#" className="hero-social-link" aria-label='LinkedIn'>
-              <FaLinkedin />
+
+            <a
+              href="#contact"
+              className="hero-social-link"
+              aria-label="Instagram"
+            >
+              <FaInstagram />
             </a>
-            <a href="#" className="hero-social-link" aria-label='Twitter'>
-              <FaTwitter />
+
+            <a
+              href="#contact"
+              className="hero-social-link"
+              aria-label="Phone"
+            >
+              <FaPhoneAlt />
             </a>
           </motion.div>
         </div>
@@ -61,9 +76,9 @@ const Hero = () => {
 
       <ComputersCanvas />
 
-      <div className='hero-scroll-indicator'>
-        <a href='#about'>
-          <div className='hero-scroll-shell'>
+      <div className="hero-scroll-indicator">
+        <a href="#about">
+          <div className="hero-scroll-shell">
             <motion.div
               animate={{
                 y: [0, 24, 0],
@@ -73,7 +88,7 @@ const Hero = () => {
                 repeat: Infinity,
                 repeatType: "loop",
               }}
-              className='hero-scroll-dot'
+              className="hero-scroll-dot"
             />
           </div>
         </a>
