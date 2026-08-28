@@ -127,13 +127,9 @@ const Works = () => {
   </div>
 </div>
 
-   {/*   <div className='projects-grid'>
-        {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} {...project} />
-        ))}
-      </div>
+      
     </>
   );
 };
-*/}
+
 export default SectionWrapper(Works, "projects");
