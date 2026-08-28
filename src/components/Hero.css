@@ -240,10 +240,10 @@
 /* NFC Device */
 .hero-device {
   position: absolute;
-  right: 7%;
-  bottom: -2%;
-  width: 34%;
-  max-width: 560px;
+  right: 3%;
+  bottom: 0;
+  width: 40%;
+  max-width: 620px;
   z-index: 1;
   pointer-events: none;
 }
