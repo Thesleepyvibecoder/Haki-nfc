@@ -31,20 +31,7 @@ const Tech = () => {
           We combine NFC technology with smart digital tools to help businesses connect with customers, share information instantly, and build stronger digital presence.
         </motion.p>
 
-        <motion.div
-          variants={fadeIn("", "", 0.1, 1)}
-          className="tech-legend"
-        >
-          <div className="tech-legend-item">
-            <span className="tech-legend-dot tech-legend-dot--expert"></span> Expert
-          </div>
-          <div className="tech-legend-item">
-            <span className="tech-legend-dot tech-legend-dot--advanced"></span> Advanced
-          </div>
-          <div className="tech-legend-item">
-            <span className="tech-legend-dot tech-legend-dot--intermediate"></span> Intermediate
-          </div>
-        </motion.div>
+        
       </div>
 
       <div className='tech-grid'>
