@@ -96,12 +96,13 @@ const Experience = () => {
   return (
     <div className="relative">
       <motion.div variants={textVariant()} id="experience-heading">
-        <p className={`${styles.sectionSubText} text-center font-["Space_Mono"] text-secondary uppercase tracking-widest text-[14px]`}>
-          What I have done so far
-        </p>
-        <h2 className={`${styles.sectionHeadText} text-center flex justify-center items-center gap-3 font-["Oswald"] font-bold uppercase tracking-wider`}>
-          <FaBriefcase className='text-[#915eff]' aria-hidden="true" /> Work Experience.
-        </h2>
+       <p className={`${styles.sectionSubText} text-center font-["Space_Mono"] text-secondary uppercase tracking-widest text-[14px]`}>
+  How Haki Works
+</p>
+
+<h2 className={`${styles.sectionHeadText} text-center flex justify-center items-center gap-3 font-["Oswald"] font-bold uppercase tracking-wider`}>
+  <FaBriefcase className='text-[#915eff]' aria-hidden="true" /> Simple. Smart. Connected.
+</h2>
       </motion.div>
 
       <div className='mt-20 flex flex-col' aria-labelledby="experience-heading">
