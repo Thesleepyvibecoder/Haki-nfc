@@ -73,8 +73,9 @@ const Hero = () => {
           </motion.div>
         </div>
       </div>
-
-     
+            <div className="hero-device" aria-hidden="true">
+        <img src="/nfc-device.png" alt="" />
+      </div>
 
       <div className="hero-scroll-indicator">
         <a href="#about">
