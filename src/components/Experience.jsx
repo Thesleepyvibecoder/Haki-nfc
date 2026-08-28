@@ -101,7 +101,7 @@ const Experience = () => {
 </p>
 
 <h2 className={`${styles.sectionHeadText} text-center flex justify-center items-center gap-3 font-["Oswald"] font-bold uppercase tracking-wider`}>
-  import { FaLink, FaCalendarAlt, FaStar, FaCogs } from 'react-icons/fa'; Simple. Smart. Connected.
+  Simple. Smart. Connected.
 </h2>
       </motion.div>
 
