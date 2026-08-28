@@ -197,11 +197,11 @@
     max-width: calc(100vw - 78px);
   }
 
-   .hero-device {
-  right: -12%;
-  bottom: 2%;
-  width: 78%;
-  max-width: none;
+  .hero-device {
+    right: 2%;
+    bottom: 2%;
+    width: 52%;
+    max-width: none;
 }
 
   .hero-social-link {
