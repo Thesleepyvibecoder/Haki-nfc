@@ -28,7 +28,7 @@ const Tech = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='tech-description'
         >
-          I stay current with modern web technologies and continuously expand my skillset to build cutting-edge applications.
+          We combine NFC technology with smart digital tools to help businesses connect with customers, share information instantly, and build stronger digital presence.
         </motion.p>
 
         <motion.div
