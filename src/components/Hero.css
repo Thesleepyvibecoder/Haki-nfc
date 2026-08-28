@@ -238,3 +238,20 @@
 }
 
 
+/* NFC Device */
+.hero-device {
+  position: absolute;
+  right: 4%;
+  bottom: 0;
+  width: 45%;
+  max-width: 700px;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.hero-device img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
