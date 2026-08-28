@@ -369,3 +369,16 @@
     padding: 20px;
   }
 }
+
+.projects-intro {
+  display: block;
+}
+
+.projects-intro > p {
+  max-width: 900px;
+  margin-bottom: 32px;
+}
+
+.projects-use-cases {
+  width: 100%;
+}
