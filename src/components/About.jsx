@@ -36,55 +36,73 @@ const About = () => {
           </p>
         </motion.div>
 
-        <div className="flex flex-col md:flex-row gap-6">
-          <motion.div
-            variants={fadeIn("right", "spring", 0.2, 0.75)}
-            className="about-feature-card"
-          >
-            <span className="about-feature-number">01</span>
+        <div className="about-products">
 
-            <h3 className='font-["Oswald"]'>
-              Effortless Interaction
-            </h3>
+  {/* Product 01 */}
+  <motion.div
+    variants={fadeIn("right", "spring", 0.2, 0.75)}
+    className="about-product"
+  >
+    <div className="about-product-number">01</div>
 
-            <p className='font-["Inter"]'>
-              One tap is all it takes to connect customers with your
-              digital experience.
-            </p>
-          </motion.div>
+    <div className="about-product-content">
+      <span className="about-product-label">
+        GOOGLE REVIEW
+      </span>
 
-          <motion.div
-            variants={fadeIn("right", "spring", 0.4, 0.75)}
-            className="about-feature-card"
-          >
-            <span className="about-feature-number">02</span>
+      <h3>
+        NFC Review Stand
+      </h3>
 
-            <h3 className='font-["Oswald"]'>
-              Built for Business
-            </h3>
+      <p>
+        Turn a simple tap into a Google review. Our NFC-enabled
+        review stand gives customers an effortless way to connect
+        with your business and share their experience.
+      </p>
 
-            <p className='font-["Inter"]'>
-              Practical NFC solutions designed to make everyday business
-              interactions smarter and more convenient.
-            </p>
-          </motion.div>
+      <div className="about-product-flow">
+        <span>Tap</span>
+        <span>→</span>
+        <span>Review</span>
+        <span>→</span>
+        <span>Grow</span>
+      </div>
+    </div>
+  </motion.div>
 
-          <motion.div
-            variants={fadeIn("right", "spring", 0.6, 0.75)}
-            className="about-feature-card"
-          >
-            <span className="about-feature-number">03</span>
+  {/* Product 02 */}
+  <motion.div
+    variants={fadeIn("left", "spring", 0.4, 0.75)}
+    className="about-product"
+  >
+    <div className="about-product-number">02</div>
 
-            <h3 className='font-["Oswald"]'>
-              Modern by Design
-            </h3>
+    <div className="about-product-content">
+      <span className="about-product-label">
+        DIGITAL IDENTITY
+      </span>
 
-            <p className='font-["Inter"]'>
-              Technology that blends naturally into your brand, your
-              business, and the way your customers interact with it.
-            </p>
-          </motion.div>
-        </div>
+      <h3>
+        NFC Business Card
+      </h3>
+
+      <p>
+        A premium business card with NFC technology that instantly
+        shares contact details, websites, social profiles, or
+        whatever your business needs to put in front of a customer.
+      </p>
+
+      <div className="about-product-flow">
+        <span>Tap</span>
+        <span>→</span>
+        <span>Connect</span>
+        <span>→</span>
+        <span>Share</span>
+      </div>
+    </div>
+  </motion.div>
+
+</div>
       </div>
     </>
   );
