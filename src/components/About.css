@@ -166,3 +166,80 @@
   .gap-10 { gap: 1rem; }
   .mt-20 { margin-top: 3rem; }
 }
+
+
+/* =====================================================
+   Haki NFC About Features
+   ===================================================== */
+
+.about-feature-card {
+  position: relative;
+  flex: 1;
+  min-height: 190px;
+  padding: 28px;
+  overflow: hidden;
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+
+  background: rgba(21, 16, 48, 0.55);
+
+  box-shadow: 0 25px 70px -30px rgba(33, 30, 53, 0.9);
+
+  transition:
+    transform 250ms ease,
+    border-color 250ms ease,
+    background 250ms ease;
+}
+
+.about-feature-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(145, 94, 255, 0.35);
+  background: rgba(21, 16, 48, 0.75);
+}
+
+.about-feature-number {
+  display: block;
+  margin-bottom: 22px;
+
+  color: #915eff;
+
+  font-family: "Orbitron", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+}
+
+.about-feature-card h3 {
+  margin: 0;
+
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.about-feature-card p {
+  margin-top: 12px;
+
+  color: #aaa6c3;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+@media (max-width: 767px) {
+  .about-feature-card {
+    min-height: auto;
+    padding: 24px;
+  }
+
+  .about-feature-card h3 {
+    font-size: 21px;
+  }
+
+  .about-feature-card p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+}
