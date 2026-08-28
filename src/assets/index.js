@@ -31,6 +31,11 @@ import calendar from "./calendar.png";
 import restaurant from "./restaurant.png";
 import potrait from "./potrait.jpg";
 
+import hakiTap from "./haki-tap.svg";
+import hakiConnect from "./haki-connect.svg";
+import hakiEngage from "./haki-engage.svg";
+import hakiGrow from "./haki-grow.svg";
+
 export {
   logo,
   backend,
@@ -64,4 +69,8 @@ export {
   calendar,
   restaurant,
   potrait,
+  hakiTap,
+hakiConnect,
+hakiEngage,
+hakiGrow,
 };
