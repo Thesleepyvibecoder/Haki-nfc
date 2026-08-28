@@ -76,69 +76,64 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "NFC Technology",
+    icon: mobile,
     level: "Expert",
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Smart Links",
+    icon: web,
     level: "Expert",
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "Digital Profiles",
+    icon: creator,
     level: "Expert",
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Google Reviews",
+    icon: restaurant,
     level: "Advanced",
   },
   {
-    name: "React JS",
-    icon: reactjs,
-    level: "Expert",
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-    level: "Intermediate",
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-    level: "Expert",
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Social Media",
+    icon: mobile,
     level: "Advanced",
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-    level: "Intermediate",
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-    level: "Intermediate",
-  },
-  {
-    name: "git",
-    icon: git,
+    name: "QR Integration",
+    icon: web,
     level: "Advanced",
   },
   {
-    name: "figma",
-    icon: figma,
-    level: "Intermediate",
+    name: "Digital Business Cards",
+    icon: creator,
+    level: "Expert",
   },
   {
-    name: "docker",
-    icon: docker,
-    level: "Intermediate",
+    name: "Customer Engagement",
+    icon: github,
+    level: "Advanced",
+  },
+  {
+    name: "Contact Sharing",
+    icon: mobile,
+    level: "Expert",
+  },
+  {
+    name: "Tap-to-Connect",
+    icon: web,
+    level: "Expert",
+  },
+  {
+    name: "Brand Visibility",
+    icon: creator,
+    level: "Advanced",
+  },
+  {
+    name: "Smart NFC Products",
+    icon: mobile,
+    level: "Expert",
   },
 ];
 
