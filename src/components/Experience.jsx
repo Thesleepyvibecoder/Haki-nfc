@@ -1,6 +1,6 @@
 import React from "react";
 import './Experience.css';
-import { FaBriefcase, FaCalendarAlt, FaStar, FaCogs } from 'react-icons/fa';
+import { FaLink, FaCalendarAlt, FaStar, FaCogs } from 'react-icons/fa';
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -101,7 +101,7 @@ const Experience = () => {
 </p>
 
 <h2 className={`${styles.sectionHeadText} text-center flex justify-center items-center gap-3 font-["Oswald"] font-bold uppercase tracking-wider`}>
-  <FaBriefcase className='text-[#915eff]' aria-hidden="true" /> Simple. Smart. Connected.
+  import { FaLink, FaCalendarAlt, FaStar, FaCogs } from 'react-icons/fa'; Simple. Smart. Connected.
 </h2>
       </motion.div>
 
