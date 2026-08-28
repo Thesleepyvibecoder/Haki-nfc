@@ -76,20 +76,56 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <div className='projects-heading'>
-        <p className={`${styles.sectionSubText} font-["Playfair_Display"] italic tracking-wider`}>My work</p>
-        <h2 className={`${styles.sectionHeadText} font-["Oswald"] font-bold uppercase tracking-wide`}>Projects. <FaCode className="inline-block text-[#915eff]" /></h2>
-      </div>
+     <div className='projects-heading'>
+  <p className={`${styles.sectionSubText} font-["Playfair_Display"] italic tracking-wider`}>
+    HOW HAKI NFC CAN BE USED
+  </p>
 
-      <div className='projects-intro'>
-        <p>
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
-        </p>
-      </div>
+  <h2 className={`${styles.sectionHeadText} font-["Oswald"] font-bold uppercase tracking-wide`}>
+    Built for real-world connections. <FaCode className="inline-block text-[#915eff]" />
+  </h2>
+</div>
+
+<div className='projects-intro'>
+  <p>
+    Haki NFC helps businesses turn everyday physical interactions into
+    quick, useful digital touchpoints.
+  </p>
+
+  <div className='projects-use-cases'>
+    <div className='use-case'>
+      <h3>For Businesses</h3>
+      <p>
+        Share contact details, social profiles, websites, and other important
+        information with a simple tap.
+      </p>
+    </div>
+
+    <div className='use-case'>
+      <h3>For Restaurants</h3>
+      <p>
+        Turn tables, counters, menus, and other physical touchpoints into
+        instant digital access points.
+      </p>
+    </div>
+
+    <div className='use-case'>
+      <h3>For Customer Reviews</h3>
+      <p>
+        Make it easier for customers to discover your business and leave a
+        Google review with a simple tap.
+      </p>
+    </div>
+
+    <div className='use-case'>
+      <h3>For Professionals</h3>
+      <p>
+        Share your digital business card, portfolio, contact details, and
+        professional profiles instantly.
+      </p>
+    </div>
+  </div>
+</div>
 
       <div className='projects-grid'>
         {projects.map((project, index) => (
