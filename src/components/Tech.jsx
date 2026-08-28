@@ -19,8 +19,8 @@ const Tech = () => {
   return (
     <>
       <motion.div variants={textVariant()} className='tech-heading'>
-        <p className={styles.sectionSubText}>My technical expertise</p>
-        <h2 className={styles.sectionHeadText}>Technologies & Tools. <FaLaptopCode className="tech-heading-icon" /></h2>
+        <p className={styles.sectionSubText}>What Haki NFC brings to your business</p>
+<h2 className={styles.sectionHeadText}>Smart Business Solutions. <FaLaptopCode className="tech-heading-icon" /></h2>
       </motion.div>
 
       <div className='tech-intro'>
