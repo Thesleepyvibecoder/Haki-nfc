@@ -146,7 +146,7 @@ const experiences = [
   {
     title: "Tap",
     company_name: "Start the Experience",
-    icon: "/haki-tap.svg",
+    icon: hakiTap,
     iconBg: "#383E56",
     date: "Step 01",
     skills: ["NFC", "One Tap", "Instant"],
@@ -159,7 +159,7 @@ const experiences = [
   {
     title: "Connect",
     company_name: "Open Your Digital Experience",
-    icon: "/haki-connect.svg",
+    icon: hakiConnect,
     iconBg: "#E6DEDD",
     date: "Step 02",
     skills: ["Smart Link", "Mobile", "Seamless"],
@@ -172,7 +172,7 @@ const experiences = [
   {
     title: "Engage",
     company_name: "Turn Taps Into Interactions",
-    icon: "/haki-engage.svg",
+    icon: hakiEngage,
     iconBg: "#383E56",
     date: "Step 03",
     skills: ["Reviews", "Contacts", "Socials"],
@@ -185,7 +185,7 @@ const experiences = [
   {
     title: "Grow",
     company_name: "Build Better Customer Connections",
-    icon: "/haki-grow.svg",
+    icon: hakiGrow,
     iconBg: "#E6DEDD",
     date: "Step 04",
     skills: ["Engagement", "Visibility", "Growth"],
