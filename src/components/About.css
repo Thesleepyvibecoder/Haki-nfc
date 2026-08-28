@@ -243,3 +243,158 @@
     line-height: 1.6;
   }
 }
+
+
+/* =====================================================
+   HAKI NFC PRODUCTS
+   ===================================================== */
+
+.about-products {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.about-product {
+  position: relative;
+  overflow: hidden;
+  min-height: 300px;
+  padding: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  background:
+    radial-gradient(
+      circle at 85% 15%,
+      rgba(145, 94, 255, 0.12),
+      transparent 35%
+    ),
+    #151030;
+  box-shadow: 0 25px 80px -25px rgba(33, 30, 53, 0.8);
+  transition:
+    transform 0.35s ease,
+    border-color 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+.about-product::before {
+  content: "";
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  right: -80px;
+  bottom: -90px;
+  border: 1px solid rgba(145, 94, 255, 0.15);
+  border-radius: 50%;
+}
+
+.about-product::after {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  right: -50px;
+  bottom: -60px;
+  border: 1px solid rgba(0, 206, 168, 0.12);
+  border-radius: 50%;
+}
+
+.about-product:hover {
+  transform: translateY(-6px);
+  border-color: rgba(145, 94, 255, 0.35);
+  box-shadow: 0 30px 90px -20px rgba(145, 94, 255, 0.18);
+}
+
+.about-product-number {
+  font-family: "Orbitron", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  color: #915eff;
+  margin-bottom: 2rem;
+}
+
+.about-product-content {
+  position: relative;
+  z-index: 2;
+}
+
+.about-product-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-family: "Orbitron", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  color: #aaa6c3;
+}
+
+.about-product h3 {
+  margin: 0 0 1rem;
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.about-product p {
+  max-width: 520px;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #aaa6c3;
+}
+
+.about-product-flow {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-top: 2rem;
+  font-family: "Orbitron", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  color: #ffffff;
+}
+
+.about-product-flow span:nth-child(even) {
+  color: #915eff;
+  font-size: 15px;
+}
+
+
+/* =====================================================
+   MOBILE
+   ===================================================== */
+
+@media (max-width: 767px) {
+  .about-products {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 3rem;
+  }
+
+  .about-product {
+    min-height: 250px;
+    padding: 1.5rem;
+  }
+
+  .about-product-number {
+    margin-bottom: 1.5rem;
+  }
+
+  .about-product h3 {
+    font-size: 26px;
+  }
+
+  .about-product p {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .about-product-flow {
+    margin-top: 1.5rem;
+  }
+}
