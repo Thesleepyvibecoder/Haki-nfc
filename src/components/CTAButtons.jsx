@@ -71,10 +71,10 @@ const CTAButtons = () => {
                         whileHover={{ y: -2 }}
                         whileTap={{ scale: 0.98 }}
                         transition={{ duration: 0.2 }}
-                        aria-label="Download my resume"
+                        aria-label="Download Project Brief"
                     >
                         <FaDownload className="cta-icon-download" aria-hidden="true" />
-                        <span>Download Resume</span>
+                        <span>Download Project Brief</span>
                     </motion.a>
                 </motion.div>
             )}
