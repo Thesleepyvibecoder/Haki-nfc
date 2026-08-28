@@ -112,7 +112,7 @@ const technologies = [
   },
   {
     name: "Customer Engagement",
-    icon: github,
+    icon: git,
     level: "Advanced",
   },
   {
