@@ -9,11 +9,7 @@ import { technologies } from "../constants";
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const levelClassNames = {
-  Expert: "tech-card--expert",
-  Advanced: "tech-card--advanced",
-  Intermediate: "tech-card--intermediate",
-};
+
 
 const Tech = () => {
   return (
@@ -37,7 +33,7 @@ const Tech = () => {
       <div className='tech-grid'>
         {technologies.map((technology, index) => (
           <motion.div
-            className={`tech-card ${levelClassNames[technology.level] || ""}`}
+            className='tech-card'
             key={technology.name}
             variants={fadeIn("up", "spring", 0.08 * index, 0.75)}
           >
@@ -50,7 +46,7 @@ const Tech = () => {
               />
             </div>
             <h3 className='tech-name'>{technology.name}</h3>
-            <span className='tech-level'>{technology.level}</span>
+            
           </motion.div>
         ))}
       </div>
