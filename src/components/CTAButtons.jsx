@@ -44,7 +44,7 @@ const CTAButtons = () => {
                         whileHover={{ y: -2, scale: 1.02 }}
                         whileTap={{ scale: 0.98 }}
                         transition={{ duration: 0.2 }}
-                        aria-label="View my work"
+                        aria-label="Explore Haki"
                     >
                         {/* Animated gradient background */}
                         <div className="cta-primary-bg" aria-hidden="true" />
@@ -52,7 +52,7 @@ const CTAButtons = () => {
                         {/* Content */}
                         <div className="cta-primary-content">
                             <FaRocket className="cta-icon-rocket" aria-hidden="true" />
-                            <span>View My Work</span>
+                            <span>Explore Haki</span>
                         </div>
 
                         {/* Pulse ring */}
