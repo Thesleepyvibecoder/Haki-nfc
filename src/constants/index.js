@@ -26,6 +26,10 @@ import {
   weather,
   calendar,
   restaurant,
+  hakiTap,
+hakiConnect,
+hakiEngage,
+hakiGrow,
 } from "../assets";
 
 export const navLinks = [
